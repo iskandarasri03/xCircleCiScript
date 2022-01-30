@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 echo "Downloading few Dependecies . . ."
-git clone --depth=1 https://github.com/MiCode/Xiaomi_Kernel_OpenSource.git dandelion
+git clone --depth=1 https://github.com/MiCode/Xiaomi_Kernel_OpenSource.git -b dandelion-q-oss dandelion
 git clone --depth=1 https://github.com/Dhaniarta/Otaku-clang clang
 
 # Main
